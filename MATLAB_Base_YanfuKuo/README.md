@@ -23,29 +23,29 @@
 + 本来想把所有笔记都整理一遍加上文档链接的，但好像太麻烦了..况且似乎也没人看（逃
 + 加油！
 
-#### [基本操作与矩阵运算](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/02Array_Operation.md)
+#### [基本操作与矩阵运算](CSDN_notes/02Array_Operation.md)
 
-#### [结构化程序与自定义函数](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/03Structured_Programming_&_Function.md)
+#### [结构化程序与自定义函数](CSDN_notes/03Structured_Programming_&_Function.md)
 
-#### [变量与档案存取](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/04Data_Structure_&_File_Access.md)
+#### [变量与档案存取](CSDN_notes/04Data_Structure_&_File_Access.md)
 
-#### [初阶绘图](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/05Basic_Plotting.md)
+#### [初阶绘图](CSDN_notes/05Basic_Plotting.md)
 
-#### [进阶绘图](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/06Advanced_Plotting.md)
+#### [进阶绘图](CSDN_notes/06Advanced_Plotting.md)
 
-#### [影像处理Ⅰ](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/08Image_Processing I.md)
+#### [影像处理 1](CSDN_notes/08Image_Processing I.md)
 
-#### [影像处理Ⅱ](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/09Image_Processing II.md)
+#### [影像处理 2](CSDN_notes/09Image_Processing II.md)
 
-#### [数值微积分](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/10Integration_&_Differentiation.md)
+#### [数值微积分](CSDN_notes/10Integration_&_Differentiation.md)
 
-#### [方程式求根](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/11Root_Finding.md)
+#### [方程式求根](CSDN_notes/11Root_Finding.md)
 
-#### [线性方程式与线性系统](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/12Linear_Equations.md)
+#### [线性方程式与线性系统](CSDN_notes/12Linear_Equations.md)
 
-#### [统计](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/13Statistics_&_Data_Analysis.md)
+#### [统计](CSDN_notes/13Statistics_&_Data_Analysis.md)
 
-#### [回归与内插](https://github.com/19PDP/Bilibili-plus/tree/master/MATLAB_Base_YanfuKuo/CSDN_notes/14Curve_Fitting_&_Interpolation.md)
+#### [回归与内插](CSDN_notes/14Curve_Fitting_&_Interpolation.md)
 
 <br>
 <br>
