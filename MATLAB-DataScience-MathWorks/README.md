@@ -1,4 +1,4 @@
-该源代码来源于 [MathWorks](https://github.com/mathworks/data-science-predict-weather-events) 。部分数据需要下载，源代码中有下载数据的爬虫脚本，按照说明运行即可。
+该源代码来源于 [MathWorks](https://github.com/mathworks/data-science-predict-weather-events) ；部分数据需要下载，源代码中有下载数据的爬虫脚本，按照说明运行即可。
 
 ---
 
