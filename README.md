@@ -6,37 +6,37 @@
 
 ## MATLAB 基础教程-台大郭彦甫
 
-+ [视频](https://www.bilibili.com/video/BV1DA411Y7bN)
-+ [课件](MATLAB-Base-YanfuKuo/)
-+ [原视频](https://www.youtube.com/watch?v=KHFZLkm9qs0&t=197s)
++ :tv: [视频](https://www.bilibili.com/video/BV1DA411Y7bN)
++ :page_facing_up: [课件](MATLAB-Base-YanfuKuo/)
++ :pray: [转载来源](https://www.youtube.com/watch?v=KHFZLkm9qs0&t=197s)
 
 ## MATLAB 数据科学系列
 
-+ [视频](https://www.bilibili.com/video/BV11o4y1R7p9)
-+ [源代码](MATLAB-DataScience-MathWorks/)
-+ [原视频](https://ww2.mathworks.cn/videos/series/data-science-tutorial.html)
++ :tv: [视频](https://www.bilibili.com/video/BV11o4y1R7p9)
++ :page_facing_up: [源代码和数据](MATLAB-DataScience-MathWorks/)
++ :pray: [转载来源](https://ww2.mathworks.cn/videos/series/data-science-tutorial.html)
 
-## 候捷 C++ 系列
+## 侯捷 C++ 系列
 
 ### C++ 面向对象高级编程上-基于对象
 
-+ [视频](https://www.bilibili.com/video/BV1Lb4y1R7fs)
-+ [源代码和课件](C++-OOPBase1-HouJie/)
++ :tv: [视频](https://www.bilibili.com/video/BV1Lb4y1R7fs)
++ :page_facing_up: [源代码和课件](C++-OOPBase1-HouJie/)
 
 ### C++ 面向对象高级编程下-面向对象
 
-+ 视频
-+ [源代码和课件](C++-OPPBase2-HouJie/)
++ :tv: 视频
++ :page_facing_up: [源代码和课件](C++-OPPBase2-HouJie/)
 
 
 
-+ [原视频主页](https://mooc.study.163.com/smartSpec/detail/1001137001.htm)
++ :pray: [转载来源](https://mooc.study.163.com/smartSpec/detail/1001137001.htm)
 
 
 
 ---
 
-:exclamation: 说明：转载视频的初衷是为了方便观看，由于部分视频来源于商业机构，可能追究起来 b 站一声不吭地就下架了，为了避免大家学着学着视频没了，所以才有了这个仓库。
+:exclamation::exclamation: 说明：转载视频的初衷是为了方便观看，由于部分视频来源于商业机构，可能追究起来 b 站一声不吭地就下架了，为了避免大家学着学着视频没了，所以才有了这个仓库。
 
 视频和资料都都是废了不少时间和精力搜集起来的，并且对每一个视频都注明了转载来源，希望大家白嫖之后可以对原作者做一些力所能及的支持，尤其是原视频本身就是无偿观看的作者，哪怕是跑到 [郭彦甫老师的 YouTube 主页](https://www.youtube.com/user/machinelearningandvi) 说声谢谢呢 :pray:
 
