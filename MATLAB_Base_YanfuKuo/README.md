@@ -33,9 +33,9 @@
 
 #### [进阶绘图](CSDN_notes/06Advanced_Plotting.md)
 
-#### [影像处理 1](CSDN_notes/08Image_Processing I.md)
+#### [影像处理1](CSDN_notes/08Image_Processing%20I.md)
 
-#### [影像处理 2](CSDN_notes/09Image_Processing II.md)
+#### [影像处理2](CSDN_notes/09Image_Processing%20II.md)
 
 #### [数值微积分](CSDN_notes/10Integration_&_Differentiation.md)
 
