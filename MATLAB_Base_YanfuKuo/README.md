@@ -1,7 +1,7 @@
 + 课程讲义下载直达：[slide](./slide)
 + 笔记源文件下载直达：[CSDN_notes](./CSDN_notes)
 
-以下为学习该课程时所做的笔记，首发在 CSDN ，懒得修改了，直接放到这做个备份吧。
+以下为学习该课程时所做的笔记，首发在 [CSDN](https://blog.csdn.net/weixin_45840825/article/details/107865933) ，懒得修改了，直接放到这做个备份吧。（[CSDN](https://blog.csdn.net/weixin_45840825/article/details/107865933) 的阅读体验应该会好些）
 
 ---
 
