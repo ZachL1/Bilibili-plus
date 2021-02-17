@@ -10,7 +10,7 @@ This example also highlights techniques for cleaning data in various forms (nume
 
 The example is used in the "Data Science with MATLAB" webinar series.
 
-To get started, run WeatherEvents.prj
+To get started, run WeatherEvents.prj 
 
 Follow along with the example via Main_WeatherEvents.mlx
 
