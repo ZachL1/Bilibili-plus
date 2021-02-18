@@ -61,107 +61,107 @@ Part II 繼續探討更多相關主題，並加上低階的對象模型 (Object 
 	About output<br>
 	Guard declarations of header files<br>
 	Layout of headers<br>
-	Object Based
-	Class without pointer member
-		Class declarations
-		Class template, introductions and overviews
-		What is 'this'
-		Inline functions
-		Access levels
-		Constructor (ctor)
-		Const member functions
-		Parameters : pass by value vs. pass by reference
-		Return values : return by value vs. return by reference
-		Friend
-		Definitions outside class body
-		Operator overloading, as member function
-		Return by reference, again
-		Operator overloading, as non-member function
-		Temporary objects
-		Expertise
-		Code demonstration
-	class with pointer members
-		The "Big Three"
-			Copy Constructor
-			Copy Assignment Operator
-			Destructor
-		Ctor and Dtor, in our String class
-		"MUST HAVE" in our String class
-			Copy Constructor
-			Copy assignment operator
-		Deal with "self assignment"
-		Another way to deal with "self assignment" : Copy and Swap
-		Overloading output operator (<<)
-		Expertise
-		Code demonstration
-	Objects from stack vs. objects from heap
-		Objects lifetime
-		new expression : allocate memory and then invoke ctor
-		delete expression : invoke dtor and then free memory
-		Anatomy of memory blocks from heap
-		Allocate an array dynamically
-		new[] and delete[]
-	MORE ISSUES :
-		static
-		private ctors
-		cout
-		Class template
-		Function template
-		namespace
-		Standard Library : Introductions and Overviews
-	Object Oriented
-		Composition means "has-a"
-			Construction : from inside to outside
-			Destruction : from outside to inside
-		Delegation means "Composition by reference"
-		Inheritance means "is-a"
-			Construction : from inside to outside
-			Destruction : from outside to inside
-		Construction and Destruction, when Inheritance+Composition
-		Inheritance with virtual functions
-		Virtual functions typical usage 1 : Template Method
-		Virtual functions typical usage 2 : Polymorphism
-		Virtual functions inside out : vptr, vtbl, and dynamic binding
-		Delegation + Inheritance : Observer
-		Delegation + Inheritance : Composite
-		Delegation + Inheritance : Prototype
+	Object Based<br>
+	Class without pointer member<br>
+		Class declarations<br>
+		Class template, introductions and overviews<br>
+		What is 'this'<br>
+		Inline functions<br>
+		Access levels<br>
+		Constructor (ctor)<br>
+		Const member functions<br>
+		Parameters : pass by value vs. pass by reference<br>
+		Return values : return by value vs. return by reference<br>
+		Friend<br>
+		Definitions outside class body<br>
+		Operator overloading, as member function<br>
+		Return by reference, again<br>
+		Operator overloading, as non-member function<br>
+		Temporary objects<br>
+		Expertise<br>
+		Code demonstration<br>
+	class with pointer members<br>
+		The "Big Three"<br>
+			Copy Constructor<br>
+			Copy Assignment Operator<br>
+			Destructor<br>
+		Ctor and Dtor, in our String class<br>
+		"MUST HAVE" in our String class<br>
+			Copy Constructor<br>
+			Copy assignment operator<br>
+		Deal with "self assignment"<br>
+		Another way to deal with "self assignment" : Copy and Swap<br>
+		Overloading output operator (<<)<br>
+		Expertise<br>
+		Code demonstration<br>
+	Objects from stack vs. objects from heap<br>
+		Objects lifetime<br>
+		new expression : allocate memory and then invoke ctor<br>
+		delete expression : invoke dtor and then free memory<br>
+		Anatomy of memory blocks from heap<br>
+		Allocate an array dynamically<br>
+		new[] and delete[]<br>
+	MORE ISSUES :<br>
+		static<br>
+		private ctors<br>
+		cout<br>
+		Class template<br>
+		Function template<br>
+		namespace<br>
+		Standard Library : Introductions and Overviews<br>
+	Object Oriented<br>
+		Composition means "has-a"<br>
+			Construction : from inside to outside<br>
+			Destruction : from outside to inside<br>
+		Delegation means "Composition by reference"<br>
+		Inheritance means "is-a"<br>
+			Construction : from inside to outside<br>
+			Destruction : from outside to inside<br>
+		Construction and Destruction, when Inheritance+Composition<br>
+		Inheritance with virtual functions<br>
+		Virtual functions typical usage 1 : Template Method<br>
+		Virtual functions typical usage 2 : Polymorphism<br>
+		Virtual functions inside out : vptr, vtbl, and dynamic binding<br>
+		Delegation + Inheritance : Observer<br>
+		Delegation + Inheritance : Composite<br>
+		Delegation + Inheritance : Prototype<br>
 
 ### Part II
 
 **緒論**
-Conversion function (轉換函數)
-Non-explicit one-argument constructor
-Pointer-like classes, 關於智能指針
-Pointer-like classes, 關於迭代器
-Function-like classes, 所謂仿函數
-標準庫中的仿函數的奇特模樣
-namespace 經驗談
-class template, 類模板
-function template, 函數模板
-member template, 成員模板
-specialization, 模板特化
-partial specialization, 模板偏特化 —— 個數的偏
-partial specialization, 模板偏特化 —— 範圍的偏
-template template parameter, 模板模板參數
-variadic templates (since C++11)
-auto (since C++11)
-ranged-base for (since C++11)
-reference
-Composition (複合) 關係下的構造和析構
-Inheritance (繼承) 關係下的構造和析構
-Inheritance+Composition 關係下的構造和析構
-對象模型 (Object Model) ：關於 vptr 和 vtbl
-對象模型 (Object Model) ：關於 this
-對象模型 (Object Model) ：關於 Dynamic Binding
-談談 const
-關於 new, delete
-重載 ::operator new, ::operator delete
-重載 ::operator new[], ::operator delete[]
-重載 member operator new/delete
-重載 member operator new[]/delete[]
-示例
-重載 new(), delete()
-示例
-basic_string 使用 new(extra) 擴充申請量
+Conversion function (轉換函數)<br>
+Non-explicit one-argument constructor<br>
+Pointer-like classes, 關於智能指針<br>
+Pointer-like classes, 關於迭代器<br>
+Function-like classes, 所謂仿函數<br>
+標準庫中的仿函數的奇特模樣<br>
+namespace 經驗談<br>
+class template, 類模板<br>
+function template, 函數模板<br>
+member template, 成員模板<br>
+specialization, 模板特化<br>
+partial specialization, 模板偏特化 —— 個數的偏<br>
+partial specialization, 模板偏特化 —— 範圍的偏<br>
+template template parameter, 模板模板參數<br>
+variadic templates (since C++11)<br>
+auto (since C++11)<br>
+ranged-base for (since C++11)<br>
+reference<br>
+Composition (複合) 關係下的構造和析構<br>
+Inheritance (繼承) 關係下的構造和析構<br>
+Inheritance+Composition 關係下的構造和析構<br>
+對象模型 (Object Model) ：關於 vptr 和 vtbl<br>
+對象模型 (Object Model) ：關於 this<br>
+對象模型 (Object Model) ：關於 Dynamic Binding<br>
+談談 const<br>
+關於 new, delete<br>
+重載 ::operator new, ::operator delete<br>
+重載 ::operator new[], ::operator delete[]<br>
+重載 member operator new/delete<br>
+重載 member operator new[]/delete[]<br>
+示例<br>
+重載 new(), delete()<br>
+示例<br>
+basic_string 使用 new(extra) 擴充申請量<br>
 -- the end
 
