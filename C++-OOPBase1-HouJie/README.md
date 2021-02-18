@@ -55,76 +55,76 @@ Part II 繼續探討更多相關主題，並加上低階的對象模型 (Object 
 ### Part I
 
 **Introduction of C++98, TR1, C++11, C++14**<br>
-	Bibliography<br>
-	Data and Functions, from C to C++<br>
-	Basic forms of C++ programs<br>
-	About output<br>
-	Guard declarations of header files<br>
-	Layout of headers<br>
-	Object Based<br>
-	Class without pointer member<br>
-		Class declarations<br>
-		Class template, introductions and overviews<br>
-		What is 'this'<br>
-		Inline functions<br>
-		Access levels<br>
-		Constructor (ctor)<br>
-		Const member functions<br>
-		Parameters : pass by value vs. pass by reference<br>
-		Return values : return by value vs. return by reference<br>
-		Friend<br>
-		Definitions outside class body<br>
-		Operator overloading, as member function<br>
-		Return by reference, again<br>
-		Operator overloading, as non-member function<br>
-		Temporary objects<br>
-		Expertise<br>
-		Code demonstration<br>
-	class with pointer members<br>
-		The "Big Three"<br>
-			Copy Constructor<br>
-			Copy Assignment Operator<br>
-			Destructor<br>
-		Ctor and Dtor, in our String class<br>
-		"MUST HAVE" in our String class<br>
-			Copy Constructor<br>
-			Copy assignment operator<br>
-		Deal with "self assignment"<br>
-		Another way to deal with "self assignment" : Copy and Swap<br>
-		Overloading output operator (<<)<br>
-		Expertise<br>
-		Code demonstration<br>
-	Objects from stack vs. objects from heap<br>
-		Objects lifetime<br>
-		new expression : allocate memory and then invoke ctor<br>
-		delete expression : invoke dtor and then free memory<br>
-		Anatomy of memory blocks from heap<br>
-		Allocate an array dynamically<br>
-		new[] and delete[]<br>
-	MORE ISSUES :<br>
-		static<br>
-		private ctors<br>
-		cout<br>
-		Class template<br>
-		Function template<br>
-		namespace<br>
-		Standard Library : Introductions and Overviews<br>
-	Object Oriented<br>
-		Composition means "has-a"<br>
-			Construction : from inside to outside<br>
-			Destruction : from outside to inside<br>
-		Delegation means "Composition by reference"<br>
-		Inheritance means "is-a"<br>
-			Construction : from inside to outside<br>
-			Destruction : from outside to inside<br>
-		Construction and Destruction, when Inheritance+Composition<br>
-		Inheritance with virtual functions<br>
-		Virtual functions typical usage 1 : Template Method<br>
-		Virtual functions typical usage 2 : Polymorphism<br>
-		Virtual functions inside out : vptr, vtbl, and dynamic binding<br>
-		Delegation + Inheritance : Observer<br>
-		Delegation + Inheritance : Composite<br>
-		Delegation + Inheritance : Prototype<br>
+&emsp;Bibliography<br>
+&emsp;Data and Functions, from C to C++<br>
+&emsp;Basic forms of C++ programs<br>
+&emsp;About output<br>
+&emsp;Guard declarations of header files<br>
+&emsp;Layout of headers<br>
+&emsp;Object Based<br>
+&emsp;Class without pointer member<br>
+&emsp;&emsp;Class declarations<br>
+&emsp;&emsp;Class template, introductions and overviews<br>
+&emsp;&emsp;What is 'this'<br>
+&emsp;&emsp;Inline functions<br>
+&emsp;&emsp;Access levels<br>
+&emsp;&emsp;Constructor (ctor)<br>
+&emsp;&emsp;Const member functions<br>
+&emsp;&emsp;Parameters : pass by value vs. pass by reference<br>
+&emsp;&emsp;Return values : return by value vs. return by reference<br>
+&emsp;&emsp;Friend<br>
+&emsp;&emsp;Definitions outside class body<br>
+&emsp;&emsp;Operator overloading, as member function<br>
+&emsp;&emsp;Return by reference, again<br>
+&emsp;&emsp;Operator overloading, as non-member function<br>
+&emsp;&emsp;Temporary objects<br>
+&emsp;&emsp;Expertise<br>
+&emsp;&emsp;Code demonstration<br>
+&emsp;class with pointer members<br>
+&emsp;&emsp;The "Big Three"<br>
+&emsp;&emsp;&emsp;Copy Constructor<br>
+&emsp;&emsp;&emsp;Copy Assignment Operator<br>
+&emsp;&emsp;&emsp;Destructor<br>
+&emsp;&emsp;Ctor and Dtor, in our String class<br>
+&emsp;&emsp;"MUST HAVE" in our String class<br>
+&emsp;&emsp;&emsp;Copy Constructor<br>
+&emsp;&emsp;&emsp;Copy assignment operator<br>
+&emsp;&emsp;Deal with "self assignment"<br>
+&emsp;&emsp;Another way to deal with "self assignment" : Copy and Swap<br>
+&emsp;&emsp;Overloading output operator (<<)<br>
+&emsp;&emsp;Expertise<br>
+&emsp;&emsp;Code demonstration<br>
+&emsp;Objects from stack vs. objects from heap<br>
+&emsp;&emsp;Objects lifetime<br>
+&emsp;&emsp;new expression : allocate memory and then invoke ctor<br>
+&emsp;&emsp;delete expression : invoke dtor and then free memory<br>
+&emsp;&emsp;Anatomy of memory blocks from heap<br>
+&emsp;&emsp;Allocate an array dynamically<br>
+&emsp;&emsp;new[] and delete[]<br>
+&emsp;MORE ISSUES :<br>
+&emsp;&emsp;static<br>
+&emsp;&emsp;private ctors<br>
+&emsp;&emsp;cout<br>
+&emsp;&emsp;Class template<br>
+&emsp;&emsp;Function template<br>
+&emsp;&emsp;namespace<br>
+&emsp;&emsp;Standard Library : Introductions and Overviews<br>
+&emsp;Object Oriented<br>
+&emsp;&emsp;Composition means "has-a"<br>
+&emsp;&emsp;&emsp;Construction : from inside to outside<br>
+&emsp;&emsp;&emsp;Destruction : from outside to inside<br>
+&emsp;&emsp;Delegation means "Composition by reference"<br>
+&emsp;&emsp;Inheritance means "is-a"<br>
+&emsp;&emsp;&emsp;Construction : from inside to outside<br>
+&emsp;&emsp;&emsp;Destruction : from outside to inside<br>
+&emsp;&emsp;Construction and Destruction, when Inheritance+Composition<br>
+&emsp;&emsp;Inheritance with virtual functions<br>
+&emsp;&emsp;Virtual functions typical usage 1 : Template Method<br>
+&emsp;&emsp;Virtual functions typical usage 2 : Polymorphism<br>
+&emsp;&emsp;Virtual functions inside out : vptr, vtbl, and dynamic binding<br>
+&emsp;&emsp;Delegation + Inheritance : Observer<br>
+&emsp;&emsp;Delegation + Inheritance : Composite<br>
+&emsp;&emsp;Delegation + Inheritance : Prototype<br>
 
 ### Part II
 
