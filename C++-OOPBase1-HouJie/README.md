@@ -48,19 +48,19 @@ Part II 繼續探討更多相關主題，並加上低階的對象模型 (Object 
 
 ---
 
-以下這份不算太細緻的主題劃分，協助您認識整個課程內容。
+以下这份不太细致的主题划分，帮助您认识整个课程内容。
 
 ## C++面向對象編程 (C++Object-Oriented Programming)
 
 ### Part I
 
-**Introduction of C++98, TR1, C++11, C++14**
-	Bibliography
-	Data and Functions, from C to C++
-	Basic forms of C++ programs
-	About output
-	Guard declarations of header files
-	Layout of headers
+**Introduction of C++98, TR1, C++11, C++14**<br>
+	Bibliography<br>
+	Data and Functions, from C to C++<br>
+	Basic forms of C++ programs<br>
+	About output<br>
+	Guard declarations of header files<br>
+	Layout of headers<br>
 	Object Based
 	Class without pointer member
 		Class declarations
