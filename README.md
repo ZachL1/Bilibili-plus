@@ -26,7 +26,7 @@
 ### C++ 面向对象高级编程下-面向对象
 
 + :tv: 视频
-+ :page_facing_up:  [源代码和课件](./C++-OPPBase2-HouJie/)
++ :page_facing_up:  [源代码和课件](https://github.com/19PDP/Bilibili-plus/tree/master/C++-OOPBase2-HouJie)
 
 
 
