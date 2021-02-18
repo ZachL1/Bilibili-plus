@@ -7,13 +7,13 @@
 ## MATLAB 基础教程-台大郭彦甫
 
 + :tv: [视频](https://www.bilibili.com/video/BV1DA411Y7bN)
-+ :page_facing_up: [课件](MATLAB-Base-YanfuKuo/)
++ :page_facing_up:  [课件](./MATLAB-Base-YanfuKuo/)
 + :pray: [转载来源](https://www.youtube.com/watch?v=KHFZLkm9qs0&t=197s)
 
 ## MATLAB 数据科学系列
 
 + :tv: [视频](https://www.bilibili.com/video/BV11o4y1R7p9)
-+ :page_facing_up: [源代码和数据](MATLAB-DataScience-MathWorks/)
++ :page_facing_up:  [源代码和数据](./MATLAB-DataScience-MathWorks/)
 + :pray: [转载来源](https://ww2.mathworks.cn/videos/series/data-science-tutorial.html)
 
 ## 侯捷 C++ 系列
@@ -21,12 +21,12 @@
 ### C++ 面向对象高级编程上-基于对象
 
 + :tv: [视频](https://www.bilibili.com/video/BV1Lb4y1R7fs)
-+ :page_facing_up: [源代码和课件](C++-OOPBase1-HouJie/)
++ :page_facing_up: [源代码和课件](./C++-OOPBase1-HouJie/)
 
 ### C++ 面向对象高级编程下-面向对象
 
 + :tv: 视频
-+ :page_facing_up: [源代码和课件](C++-OPPBase2-HouJie/)
++ :page_facing_up:  [源代码和课件](./C++-OPPBase2-HouJie/)
 
 
 
