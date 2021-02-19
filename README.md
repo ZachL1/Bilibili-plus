@@ -25,12 +25,15 @@
 + :tv: [视频](https://www.bilibili.com/video/BV1Lb4y1R7fs)
 + :page_facing_up: [源代码和课件](./C++-OOPBase1-HouJie/)
 
-### C++ 面向对象高级编程下-面向对象
+### C++ 面向对象高级编程下-兼谈对象模型
 
 + :tv: 视频
-+ :page_facing_up:  [源代码和课件](https://github.com/19PDP/Bilibili-plus/tree/master/C++-OOPBase2-HouJie)
++ :page_facing_up:  [源代码和课件](C++-OOPBase2-HouJie/)
 
+### C++标准库(STL)与泛型编程
 
++ :tv: [视频](https://www.bilibili.com/video/BV1BX4y1G7bX)
++ :page_facing_up:  [源代码和课件](./C++-STL-HouJie)
 
 + :pray: [转载来源](https://mooc.study.163.com/smartSpec/detail/1001137001.htm)
 
