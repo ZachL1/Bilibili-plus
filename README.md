@@ -2,12 +2,14 @@
 
 :hear_no_evil: 对**视频**进行更新。如果因版权问题稿件被退回，将以其他方式发布视频并在此更新，防止看到一半就没了。
 
+:speak_no_evil: 如果需要下载仓库中的文件但受不了 GitHub 的速度，请看 [下载方法](./Download-method.md)。
+
 ----
 
 ## MATLAB 基础教程-台大郭彦甫
 
 + :tv: [视频](https://www.bilibili.com/video/BV1DA411Y7bN)
-+ :page_facing_up:  [课件](./MATLAB-Base-YanfuKuo/)
++ :page_facing_up:  [课件和笔记](./MATLAB-Base-YanfuKuo/)
 + :pray: [转载来源](https://www.youtube.com/watch?v=KHFZLkm9qs0&t=197s)
 
 ## MATLAB 数据科学系列
