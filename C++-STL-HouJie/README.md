@@ -1,0 +1,11 @@
++ 视频直达：[C++标准库(STL)与泛型编程](https://www.bilibili.com/video/BV1BX4y1G7bX)
++ 课程讲义下载直达：[slide](slide/)
++ 源代码直达：[code](code/)
+
+----
+
+候捷老师 C++ 系列课程导航：
+
++ [C++面向对象高级编程（上）-基于对象](../C++-OOPBase1-HouJie/)
++ [C++面向对象高级编程（下）-兼谈对象模型](../C++-OOPBase2-HouJie/)
++ C++标准库(STL)与泛型编程
