@@ -1,3 +1,4 @@
++ 视频直达：[C++ 面向对象高级编程下-兼谈对象模型]()
 + 课程讲义下载直达：[slide](slide/)
 + 源代码直达：[code](code/)
 
@@ -6,8 +7,8 @@
 候捷老师 C++ 系列课程导航：
 
 + [C++面向对象高级编程（上）-基于对象](../C++-OOPBase1-HouJie/)
-+ C++面向对象高级编程（下）-面向对象
-+ 
++ C++面向对象高级编程（下）-兼谈对象模型
++ [C++标准库(STL)与泛型编程](../C++-STL-HouJie/)
 
 
 
@@ -129,7 +130,7 @@ Part II 繼續探討更多相關主題，並加上低階的對象模型 (Object 
 
 ### Part II
 
-**緒論**
+**緒論**<br>
 Conversion function (轉換函數)<br>
 Non-explicit one-argument constructor<br>
 Pointer-like classes, 關於智能指針<br>
