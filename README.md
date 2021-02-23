@@ -6,7 +6,7 @@
 
 ---
 
-## 侯捷 C++ 系列
+# 侯捷 C++ 系列
 
 ### C++ 面向对象高级编程上-基于对象
 
@@ -29,13 +29,13 @@
 + :page_facing_up:  [课件](./C++-newC++11&14-HouJie)
 + :pray: [转载来源](https://mooc.study.163.com/smartSpec/detail/1001137001.htm)
 
-## MATLAB 基础教程-台大郭彦甫
+# MATLAB 基础教程-台大郭彦甫
 
 + :tv: [视频](https://www.bilibili.com/video/BV1DA411Y7bN)
 + :page_facing_up:  [课件和笔记](./MATLAB-Base-YanfuKuo/)
 + :pray: [转载来源](https://www.youtube.com/watch?v=KHFZLkm9qs0&t=197s)
 
-## MATLAB 数据科学系列
+# MATLAB 数据科学系列
 
 + :tv: [视频](https://www.bilibili.com/video/BV11o4y1R7p9)
 + :page_facing_up:  [源代码和数据](./MATLAB-DataScience-MathWorks/)
