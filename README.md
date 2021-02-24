@@ -8,14 +8,14 @@
 
 # 侯捷 C++ 系列
 
-### C++ 面向对象高级编程上-基于对象
+### C++ 面向对象高级编程(上)
 
 + :tv: [视频](https://www.bilibili.com/video/BV1Lb4y1R7fs)
 + :page_facing_up: [源代码和课件](./C++-OOPBase1-HouJie/)
 
-### C++ 面向对象高级编程下-兼谈对象模型
+### C++ 面向对象高级编程(下)-兼谈对象模型
 
-+ :tv: 视频（还没过审，在努力尝试中....
++ :tv: [视频](https://www.bilibili.com/video/BV1ZX4y157Bu)
 + :page_facing_up:  [源代码和课件](C++-OOPBase2-HouJie/)
 
 ### C++标准库(STL)与泛型编程
@@ -27,7 +27,15 @@
 
 + :tv: [视频](https://www.bilibili.com/video/BV1Rp4y1n7fb)
 + :page_facing_up:  [课件](./C++-newC++11&14-HouJie)
+
+### C++内存管理机制-从平地到万丈高楼
+
++ :tv: [视频]()
++ :page_facing_up:  [课件](./C++-MemoryManagement-HouJie/)
+
 + :pray: [转载来源](https://mooc.study.163.com/smartSpec/detail/1001137001.htm)
+
+<br>
 
 # MATLAB 基础教程-台大郭彦甫
 
