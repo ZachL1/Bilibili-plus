@@ -30,8 +30,13 @@
 
 ### C++内存管理机制-从平地到万丈高楼
 
-+ :tv: [视频]()
++ :tv: [视频](https://www.bilibili.com/video/BV1Er4y1A7Xy)
 + :page_facing_up:  [课件](./C++-MemoryManagement-HouJie/)
+
+### C++Startup揭秘-C++程序的生前死后
+
++ :tv: [视频](https://www.bilibili.com/video/BV17N41197DV)
++ :page_facing_up:  没有课件
 
 + :pray: [转载来源](https://mooc.study.163.com/smartSpec/detail/1001137001.htm)
 
