@@ -11,4 +11,4 @@
 3. C++标准库(STL)与泛型编程
 4. [C++新标准-C++11/14](../C++-newC++11&14-HouJie/)
 5. [C++内存管理](../C++-MemoryManagement-HouJie/)
-6. [C++Startup揭秘](../)
+6. [C++Startup揭秘](https://github.com/19PDP/Bilibili-plus)
