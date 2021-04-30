@@ -1,4 +1,4 @@
-+ 视频直达：[C++ 面向对象高级编程下-兼谈对象模型]()
++ 视频直达：[C++ 面向对象高级编程下-兼谈对象模型](https://www.bilibili.com/video/BV1ZX4y157Bu)
 + 课程讲义下载直达：[slide](slide/)
 + 源代码直达：[code](code/)
 
