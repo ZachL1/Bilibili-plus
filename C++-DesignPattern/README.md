@@ -1,4 +1,4 @@
-+ 视频直达：[C++内存管理机制](https://www.bilibili.com/video/BV1V5411w7qg)
++ 视频直达：[C++设计模式](https://www.bilibili.com/video/BV1DT4y1R7sA)
 + 课程讲义下载直达：[slide](slide/)
 + 源代码直达：[code](./code/)
 
