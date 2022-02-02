@@ -1,3 +1,31 @@
+### 2022年1月11日更新
+
+对 b 站侯捷系列视频的统一回应:eyes:
+
+1. 目前侯捷系列所有视频均被下架，Boolan网（版权所有方）已通知我侵权，因此后续不会再上传；
+
+2. 所有视频均已上传阿里云盘，请大家移步阿里云盘观看：[侯捷全系列](https://www.aliyundrive.com/s/d3WQCUgj1L2)；
+
+3. GitHub访问不方便的，在蓝奏云也放了一份：[PPT 和代码](https://fishe.lanzoul.com/s/cpp)；
+
+4. 有很多同学问视频学习顺序，最先学 面向对象上、下和 STL 标准库，之后其他的视频自己就有把握了；
+
+5. 视频并不完整，不用费力气找，这里是全网最全的。缺少的部分：
+
+   - STL部分：p25是重复了p23的，这里**缺少p25**的视频；p27就是p28的开头，但**这里没有缺失**，课程内容是连贯的，应该是原视频没剪辑好。
+
+   - C++新标准部分：p29前面的都是完整的，主要是最后几个课时缺少了p30、32、33、35、36（下图圈出部分）
+
+     ![C++11&14缺失部分](./images/lack.png)
+
+   - 除了这些，全系列其他视频应该都是完整的。
+
+以上:fish:
+
+
+
+--------
+
 :see_no_evil: 对 [b 站视频](https://space.bilibili.com/435866355) 的**附带资料**（如课件、源代码等）进行备份，防止云盘链接失效。
 
 :hear_no_evil: 对**视频**进行更新。如果因版权问题稿件被退回，将以其他方式发布视频并在此更新，防止看到一半就没了。
@@ -30,8 +58,19 @@
 
 ### C++内存管理机制-从平地到万丈高楼
 
-+ :tv: [视频]()
++ :tv: [视频](https://www.bilibili.com/video/BV1Er4y1A7Xy)
 + :page_facing_up:  [课件](./C++-MemoryManagement-HouJie/)
+
+### C++Startup揭秘-C++程序的生前死后
+
++ :tv: [视频](https://www.bilibili.com/video/BV17N41197DV)
++ :page_facing_up:  没有课件
+
+### C++设计模式-李建忠
+
+- :page_facing_up:  [源代码和课件](./C++-DesignPattern)
+
+
 
 + :pray: [转载来源](https://mooc.study.163.com/smartSpec/detail/1001137001.htm)
 
