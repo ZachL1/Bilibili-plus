@@ -15,39 +15,41 @@
 
 ---
 
-## 課程簡介
+## 课程简介
 
-這是侯捷老师的所有 C++技術課程中最基礎最根本的一門課。
+这是侯捷老师的所有C++技术课程中最基础最根本的一门课。
 
-C++可說是第一個高度普及的 Object-Oriented (面向對象) 編程語言。”第一個”
-或 “最早的” 並非重點，重點是經過多年的淬煉和考驗 C++的影響深入各層面，
-擁有眾多使用者和極其豐富的資源 (書籍、論文、期刊、視頻、第三方程序庫…)。
+C++可说是第一个高度普及的Object-Oriented（面向对象）程序语言。“第一个”
+或“最早的”并非重点，重点是经过多年的淬炼和考验C++的影响深入各层面，
+拥有众多使用者和极其丰富的资源（书籍、论文、期刊、视频、第三方程序库…）。
 
-作為 Object-Oriented (面向對象) 技術的主流語言，C++ 其實還擁有另一支編程
-主線：模板與泛型編程 (Templates and Generic Programming)。
+作为Object-Oriented（面向对象）技术的主流语言，C++其实还拥有另一支编程
+主线：模板与泛型编程（Templates and Generic Programming）。
 
-本課程涵蓋上述兩條主線：Object-Oriented (面向對象) 和泛型編程 (Generic
-Programming)。
+本课程涵盖上述两条主线：Object-Oriented（面向对象）和泛型编程（Generic
+Programming）。
 
-由於視頻錄製時程的因素，本課程分為 Part I 和 Part II.
-Part I 主要討論 OO (面向對象) 的基礎概念和編程手法。基礎最是重要，勿在浮
-沙築高台，我著重的是大器與大氣。課程首先探討 Class without pointer members
-和 Class with pointer members 兩大類型，而後晉昇至 OOP/OOD，包括 classes 之
-間最重要的三種關係：繼承(Inheritance)、複合(Composition)、委託(Delegation)。
-Part II 繼續探討更多相關主題，並加上低階的對象模型 (Object Model)，以及高
-階的 Templates (模板) 編程。
+由于视频录制时程的因素，本课程分为Part I和Part II.
+Part I主要讨论OO（面向对象）的基础概念和编程手法。基础最是重要，勿在浮
+沙筑高台，着重的是大器与大气。课程首先探讨Class without pointer members
+和Class with pointer members两大类型，而后晋升至OOP/OOD，包括classes之
+间最重要的三种关系：继承（Inheritance）、复合（Composition）、委托（Delegation）。
+Part II继续探讨更多相关主题，并加上低阶的对象模型（Object Model），以及高
+阶的Templates（模板）编程。
 
-本課程所談主題都隸屬 C++1.0 (C++98)；至於 C++ 2.0 (C++11/14) 帶來的嶄新
-內容則由我的另一門課程涵蓋。C++2.0 在語言和標準庫兩方面都帶來了很多新
-事物，份量足以形成另一門課程。
+本课程所谈主题都隶属C++1.0（C++98）；至于C++ 2.0（C++11/14）带来的崭新
+内容则由侯捷老师的 [另一门课程](../C++-newC++11&14-HouJie) 涵盖。C++2.0在语言和标准库两方面都带来了很多新
+事物，份量足以形成另一门课程。
 
-你將獲得整個 video 課程的完整講義 (也就是 video 呈現的每一張投影片畫面)，
-和完整的示例程序。你可以 (也必要) 在視聽過程中隨時停格思考和閱讀講義。
+你将获得整个video课程的完整讲义（也就是video呈现的每一张投影片画面），
+和完整的示例程序。你可以（也有必要）在学习过程中随时停下来思考和阅读讲义。
 
-侯捷簡介：程序員，軟件工程師，臺灣工研院副研究員，教授，專欄主筆。曾任
-教於中壢元智大學、上海同濟大學、南京大學。著有《無責任書評》三卷、《深
-入淺出 MFC》、《STL 源碼剖析》…，譯有《Effective C++》《More Effective C++》
-《C++ Primer》《The C++ Standard Library》…
+> 侯捷简介：程序员，软件工程师，台湾工研院副研究员，教授，专栏主笔。曾任
+> 教于中坜元智大学、上海同济大学、南京大学。著有《无责任书评》三卷、《深
+> 入浅出MFC》、《STL源码剖析》…，译有《Effective C++》《More Effective C++》
+> 《C++ Primer》《The C++ Standard Library》…
+
+
 
 ---
 
@@ -131,40 +133,41 @@ Part II 繼續探討更多相關主題，並加上低階的對象模型 (Object 
 
 ### Part II
 
-**緒論**<br>
-Conversion function (轉換函數)<br>
+**绪论**<br>
+Conversion function（转换函数）<br>
 Non-explicit one-argument constructor<br>
-Pointer-like classes, 關於智能指針<br>
-Pointer-like classes, 關於迭代器<br>
-Function-like classes, 所謂仿函數<br>
-標準庫中的仿函數的奇特模樣<br>
-namespace 經驗談<br>
-class template, 類模板<br>
-function template, 函數模板<br>
-member template, 成員模板<br>
-specialization, 模板特化<br>
-partial specialization, 模板偏特化 —— 個數的偏<br>
-partial specialization, 模板偏特化 —— 範圍的偏<br>
-template template parameter, 模板模板參數<br>
-variadic templates (since C++11)<br>
-auto (since C++11)<br>
-ranged-base for (since C++11)<br>
+Pointer-like classes，关于智能指针<br>
+Pointer-like classes，关于迭代器<br>
+Function-like classes，所谓仿函数<br>
+标准库中的仿函数的奇特模样<br>
+namespace经验谈<br>
+class template，类模板<br>
+function template，函数模板<br>
+member template，成员模板<br>
+specialization，模板特化<br>
+partial specialization，模板偏特化——个数的偏<br>
+partial specialization，模板偏特化——范围的偏<br>
+template template parameter，模板模板参数<br>
+variadic templates（since C++11）<br>
+auto（since C++11）<br>
+ranged-base for（since C++11）<br>
 reference<br>
-Composition (複合) 關係下的構造和析構<br>
-Inheritance (繼承) 關係下的構造和析構<br>
-Inheritance+Composition 關係下的構造和析構<br>
-對象模型 (Object Model) ：關於 vptr 和 vtbl<br>
-對象模型 (Object Model) ：關於 this<br>
-對象模型 (Object Model) ：關於 Dynamic Binding<br>
-談談 const<br>
-關於 new, delete<br>
-重載 ::operator new, ::operator delete<br>
-重載 ::operator new[], ::operator delete[]<br>
-重載 member operator new/delete<br>
-重載 member operator new[]/delete[]<br>
+Composition（复合）关系下的构造和析构<br>
+Inheritance（继承）关系下的构造和析构<br>
+Inheritance+Composition关系下的构造和析构<br>
+对象模型（Object Model）：关于vptr和vtbl<br>
+对象模型（Object Model）：关于this<br>
+对象模型（Object Model）：关于Dynamic Binding<br>
+谈谈const<br>
+关于new，delete<br>
+重载 ::operator new，::operator delete<br>
+重载 ::operator new[]，::operator delete[]<br>
+重载 member operator new/delete<br>
+重载 member operator new[]/delete[]<br>
 示例<br>
-重載 new(), delete()<br>
+重载new()，delete()<br>
 示例<br>
-basic_string 使用 new(extra) 擴充申請量<br>
+basic_string使用new（extra）扩充申请量
+
 -- the end
 

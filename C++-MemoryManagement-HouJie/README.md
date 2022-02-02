@@ -36,22 +36,26 @@ operator new/operator delete，placement new/placement delete，我将探讨它�
 义、运用方式和重载方式。并以此开发一个极小型内存池（memory pool）。
 
 **第二讲：std:：allocator**
+
 标准库的兴起，意味我们可以摆脱内存管理的繁复琐屑，直接使用容器。但是容
 器背后的分配器（allocator）攸关容器的速度性能和空间性能。我将比较Visual C++，
 Borland C++，GNU C++标准库中的allocator，并深入探索其中最精巧的GNU
 C++ allocator的设计。
 
 **第三讲：malloc/free**
+
 malloc/free是所有内存管理手段的最后一哩；通过它才和操作系统搭上线。当然
 你也可以直接调用system API，但不建议。因此理解malloc/free的内部管理至为
 重要。我将以Visual C++的CRT（C RunTime Library）所带的malloc/free源代码
 为基础，深度探索这最基础最关键的内存分配与释放函数。
 
 **第四讲：loki::allocator**
+
 即使知名如GNU C++ pool allocator，也有其小缺陷。Loki（一套作风前沿的程序
 库）的allocator设计精简功能完整几无缺点，很值得我们深究。
 
 **第五讲：其他主题**
+
 除了std:：allocator，GNU C++还带不少allocators，它们不是标准库的一部分，
 可视为标准库的扩充。我将探讨这些扩充的allocator，特别是bitmap allocator。
 
