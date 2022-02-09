@@ -8,9 +8,9 @@
 
 
 
-[基于对象 - 单一的 class](./基于对象%20-%20单一的%20class.md)
+### [基于对象 - 单一的 class](./基于对象%20-%20单一的%20class.md)
 
-[面向对象 - class 与 class 之间的关系](./面向对象 - class 与 class 之间的关系.md)
+### [面向对象 - class 与 class 之间的关系](./面向对象 - class 与 class 之间的关系.md)
 
 
 
