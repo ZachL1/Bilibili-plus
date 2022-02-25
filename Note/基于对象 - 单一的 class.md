@@ -200,6 +200,19 @@ String::String(const String& str){
 **拷贝构造函数的参数必须是引用类型**：如果参数不是引用类型，则调用永远不会成功——为了调用拷贝构造函数，外面必须拷贝它的实参，但为了拷贝实参，有需要调用拷贝构造函数。
 > *《C++ Primer 中文版 第5版》* 第442页。
 
+**合成拷贝构造函数**：会将其参数的成员**逐个拷贝**到正在创建的对象中。不同于合成构造函数，无论是否定义拷贝构造函数，编译器都会合成拷贝构造函数。
+```cpp
+class Sales_data {
+    public:
+        // 显示要求编译器合成默认构造函数
+        Sales_data() = default;
+        Sales_data& Sales_data::operator=(const Sales_data&) = default;
+
+        // 定义为"删除的函数"，来阻止拷贝 c++11
+        Sales_data(const Sales_data&) = delete;
+        // 也可以将构造函数定义为 private 以阻止拷贝，但不能阻止友元和成员函数，使用 =delete 是更好的选择
+};
+```
 
 
 #### 关于拷贝赋值
