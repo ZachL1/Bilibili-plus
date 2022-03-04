@@ -191,14 +191,28 @@ String::String(const String& str){
   	strcpy(m_data, str.m_data);
 }
 
-
 {
   	String s1("hello ");
   	String s2(s1);
 //  String s2 = s1; 与s2(s1)一样调用拷贝构造函数，因为这里定义一个新对象，所以不是拷贝赋值
 }
 ```
+**拷贝构造函数的参数必须是引用类型**：如果参数不是引用类型，则调用永远不会成功——为了调用拷贝构造函数，外面必须拷贝它的实参，但为了拷贝实参，有需要调用拷贝构造函数。
+> *《C++ Primer 中文版 第5版》* 第442页。
 
+**合成拷贝构造函数**：会将其参数的成员**逐个拷贝**到正在创建的对象中。不同于合成构造函数，无论是否定义拷贝构造函数，编译器都会合成拷贝构造函数。
+```cpp
+class Sales_data {
+    public:
+        // 显示要求编译器合成默认构造函数
+        Sales_data() = default;
+        Sales_data& Sales_data::operator=(const Sales_data&) = default;
+
+        // 定义为"删除的函数"，来阻止拷贝 c++11
+        Sales_data(const Sales_data&) = delete;
+        // 也可以将构造函数定义为 private 以阻止拷贝，但不能阻止友元和成员函数，使用 =delete 是更好的选择
+};
+```
 
 
 #### 关于拷贝赋值
@@ -219,7 +233,7 @@ String& String::operator=(const String& str){
 **特别注意对自我赋值的检测！这一点尤其重要！**
 
 看到的第一层似乎只是对效率的提升，而更深一层更为重要：如果没有对自我赋值的检测，那么进行第一步释放内存时即将自身的 data 给释放掉了，那第二步再要取 data 从何而来呢？
-
+> 此外，如果一个运算符是一个成员函数，其**左侧运算对象就绑定到隐式的 this 参数**。
 
 
 #### 关于堆、栈与内存管理
