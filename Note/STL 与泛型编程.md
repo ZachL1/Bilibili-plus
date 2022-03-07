@@ -42,5 +42,10 @@ deque 对象中其实是一连串的指针，每一个指针指向一个 buffer 
 
 > **stack 和 queue 实际上是 deque 容器的适配器**，底层就是一个 deque ，各种操作是对 deque 容器的操作的再次封装。
 
-### 源代码之分布
+### OOP vs. GP
+
+面向对象（OOP）企图将 datas 和 methods 关联在一起；
+泛型编程（GP）则将 datas 和 methods 分开来。
+
+泛型编程使得容器和算法可以各自闭门造车，它们之间的接口是 Iterators ，算法通过迭代器确定操作范围，并通过迭代器取用容器的元素。
 

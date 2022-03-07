@@ -215,6 +215,7 @@ class Sales_data {
 ```
 
 
+
 #### 关于拷贝赋值
 
 ```cpp
@@ -234,6 +235,53 @@ String& String::operator=(const String& str){
 
 看到的第一层似乎只是对效率的提升，而更深一层更为重要：如果没有对自我赋值的检测，那么进行第一步释放内存时即将自身的 data 给释放掉了，那第二步再要取 data 从何而来呢？
 > 此外，如果一个运算符是一个成员函数，其**左侧运算对象就绑定到隐式的 this 参数**。
+
+
+
+#### 关于交换操作
+
+> *《C++ Primer 中文版 第5版》* 第457页。
+
+如果没有定义自己的 swap 函数，使用标准库的 swap 操作可能是这样：
+
+```cpp
+String temp = s1; // copy s1
+s1 = s2; // delete s1, copy s2
+s2 = temp; // delete s2, copy s1
+```
+
+这些多余的操作是没有必要的。因此为了效率有必要定义自己的 swap 函数：
+
+```cpp
+inline
+void swap(String &ls, String &rs){
+    using std::swap;
+    // 使用 swap 而不是 std::swap，因为成员有可能也有自己的 swap
+    swap(ls.m_data, rs.m_data); // 交换指针而不是 data
+}
+```
+
+如果定义了 swap，那么可以**在赋值运算符中使用 swap，这样可以自动处理自赋值情况且天然就是异常安全的。**此外，与原来的拷贝赋值相比具有同等的效率，在传递实参时执行了一次拷贝构造，此后没有新的内存消耗和操作。
+
+```cpp
+String& String::operator=(String rs){
+    swap(*this, rs); // 交换左侧运算对象和局部变量 rs 的内容
+    return *this;
+} // rs 被销毁，从而 delete 了 rs 中的指针
+```
+
+
+
+#### 对象移动
+
+> *《C++ Primer 中文版 第5版》* 第470页。
+
+**C++11 可以移动而非拷贝对象。**移动对象是很有必要的，比如对于一个 `vector<String>` ，当分配的内存不能添加新成员时，需要新分配一块更大的内存，并将原来的数据“移动”到新内存中。如果没有所谓的“移动”操作，则只能拷贝过去。拷贝一份新数据又将原来数据 delete，这明显是多余的。
+
+
+
+
+
 
 
 #### 关于堆、栈与内存管理
