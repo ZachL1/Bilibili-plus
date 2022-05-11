@@ -64,7 +64,7 @@
 ### C++Startup揭秘-C++程序的生前死后
 
 + :tv: [视频](https://www.bilibili.com/video/BV17N41197DV)
-+ :page_facing_up:  没有课件
++ :page_facing_up:  [课件](./C++-Startup/)
 
 ### C++设计模式-李建忠
 
