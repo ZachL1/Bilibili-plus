@@ -58,7 +58,8 @@ void test_member_template()
 namespace jj02
 {
 template<typename T,  
-         template <typename T>  
+        //  template <typename T> // 可能会报错，详见 issues #10
+         template <typename TT> 
              class Container 
 	    > 
 class XCls 
@@ -92,7 +93,8 @@ void test_template_template_parameters_1()
 namespace jj03
 {
 template<typename T,  
-         template <typename T>  
+        //  template <typename T> // 可能会报错，详见 issues #10
+         template <typename TT> 
              class SmartPtr 
 	    > 
 class XCls 
