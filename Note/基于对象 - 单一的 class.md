@@ -282,7 +282,17 @@ String& String::operator=(String rs){
 
 
 
+#### 关于 new 和 delete
 
+使用 `new` 和 `delete` 来创建和删除对象，是一个固定的表达式，这无法改变。但表达式被拆分为几个步骤，可以对这些步骤的操作符 `operator new` 、`operator delete` 进行重载：
+
+值得注意的是：在使用 `new` 和 `delete` **表达式**时并不需要提供任何参数，表达式被拆分的第一步调用 `operator new(sizeof(Foo))` 会自动计算需要的内存大小，提供给参数 `size_t`。
+
+![image-20220513195607348](images/image-20220513195607348.png)
+
+> 需要注意的是，上述重载在 `class Foo` 内部，因此只对 `Foo` 类的 `new` 和 `delete` 有效。而如果在类外部，则重载的是全局操作符，将产生全局的影响！危险！！
+>
+> 如果用户不想使用类内重载的 `new` 或 `delete` ，使用 `::new` 显示地调用全局版本。
 
 #### 关于堆、栈与内存管理
 
