@@ -81,6 +81,12 @@ class complex{
     
     // 将非成员函数声明为友元
     friend complex complex& my_doapl (complex*, const complex&);
+
+    // 相同 class 的各个 objects 互为 friends
+    // complex c1(2,1), c2;
+    // c2.func(c1);
+    int func(const complex& param)
+    { return param.re + param.im; }
 }
 ```
 
@@ -108,7 +114,7 @@ complex c2();
 
 
 
-#### Complex 类总览
+#### Complex 类总览 (及操作符重载)
 
 ```cpp
 #ifndef __COMPLEX__ // 防卫式声明
@@ -141,6 +147,7 @@ __doapl (complex* ths, const complex& r)
 }
 // 将成员函数体写在类外，需要指定其 namespace 为 complex
 // 如果返回的不是局部对象（不是在函数内创建的），就可以返回引用
+// 返回引用将支持：c3 += c2 += c1;
 inline complex& complex::operator += (const complex& r)
 {
   return __doapl (this, r);
