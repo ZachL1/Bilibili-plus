@@ -6,7 +6,7 @@
 
 ![image-20220207193253954](images/image-20220207193253954.png)
 
-Adapter 设计模式就是一种 composition：已经有的一个强大的 class deque，现在实现 queue 只需要在 deque 的基础上开发新的接口即可（只开放部分功能）。比如使用 deque 作为底层容器的 queue:
+*<u>Adapter 设计模式</u>* 就是一种 composition：已经有的一个强大的 class deque，现在实现 queue 只需要在 deque 的基础上开发新的接口即可（只开放部分功能）。比如使用 deque 作为底层容器的 queue:
 
 ```cpp
 template <class T, class Sequence = deque<T> >
@@ -40,7 +40,7 @@ queue::~queue(...) { ... ~deque() };
 
 ### Delegation 委托    Composition by reference
 
-**即 class 中有另一种 class，但不是实例对象，而是指向那个 class 对象的指针。**是一种 reference 的复合。比如对于 String 类
+**即 class 中有另一种 class，但不是实例对象，而是指向那个 class 对象的指针。** 是一种 reference 的复合。比如对于 String 类
 
 ![image-20220207193240354](images/image-20220207193240354.png)
 
@@ -50,7 +50,7 @@ queue::~queue(...) { ... ~deque() };
 
 此外需要注意的是，当有多份相同的 String 对象 a, b, c 时，指向同一个 StringRep 可以节省内存，通过引用计数来保证 StringRep 对象的生命。当某一个对象 a 想要改动数据时，则为 a 单独拷贝一份 StringRep 对象 (**copy on write**)
 
-### Inheritance 继承    is-a
+### Inheritance (public)继承 is-a
 
 ```cpp
 struct _List_node_base
@@ -65,9 +65,15 @@ struct _List_node: public _List_node_base // public 继承
 };
 ```
 
-子类会完整继承父类的成员变量。
+- 子类会完整继承父类的成员变量。
 
-继承关系下的构造和析构与复合关系下的一样，因为实际上 一个子类对象中 has a 父类对象。因此也是“构造由内而外，析构由外而内”。**父类的构造函数必须是虚函数 (virtual functions)**
+- 继承关系下的构造和析构与复合关系下的一样，因为实际上一个子类对象中 has a 父类对象。因此也是“构造由内而外，析构由外而内”。
+
+- **父类的析构函数必须是虚函数 (virtual functions)。** 因为派生类有基类部分和自定义部分，如果基类的析构函数不是虚的，则在 delete 一个指向派生类的基类指针时将调用基类的析构函数。
+
+- struct 和 class 的区别：默认访问权限不同，struct 的成员默认是 public 的，并且默认 public 继承父类；而 class 的成员和继承方式则默认为 private
+
+public/private/protected 继承？
 
 #### 虚函数
 
@@ -89,7 +95,7 @@ class Rectangle: public Shape { ... };
 class Ellipse: public Shape { ... };
 ```
 
-**Template Method 设计模式**：把大量的固定的操作写好，留下无法决定的函数写成虚函数，让子类实现：
+**<u>Template Method 设计模式</u>**：把大量的固定的操作写好，留下无法决定的函数写成虚函数，让子类实现：
 
 ![image-20220207205924448](images/image-20220207205924448.png)
 
@@ -97,23 +103,18 @@ class Ellipse: public Shape { ... };
 2. 子类对象 myDoc 调用父类方法，执行父类中定义的操作，当到达虚函数部分跳到子类的定义处，虚函数完毕回到父类方法中继续执行，结束后再跳回子类。
 3. 4.子类调用父类方法时如何转而执行子类实现的虚函数？子类对象调用时传递 this 指针，在执行到虚函数时实际上执行 `this->Serialize();` ，从而调用了自己实现的虚函数。
 
+> 虚函数和虚函数表？参考[对象模型](./对象模型.md)
+
 ### 委托 + 继承
 
-##### Observer 观察者设计模式
+##### <u>Observer 观察者设计模式</u>
 
 同一份数据，可以通过若干个视窗 (view) 来观察：
 
 ![image-20220209101305017](images/image-20220209101305017.png)
 
-##### Composite 组合设计模式
+##### <u>Composite 组合设计模式</u>
+
+Composite 是一个目录，目录中既可以包含基础文件(Primitive)又可以包含目录，因此将 Primitive 和 Composite 都继承自 Component 基类，然后在 Composite 中包含指向基类的指针 vector:
 
 ![image-20220209101914687](images/image-20220209101914687.png)
-
-
-
-
-
-
-
-
-
